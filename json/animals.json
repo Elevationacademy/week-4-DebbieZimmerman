@@ -1,0 +1,49 @@
+[
+    {
+        "name": "cow",
+        "weight-kg": 1500,
+        "weight-tons": 1,
+        "habitat": "pasture",
+        "endangered": false,
+        "food": {
+            "grass": 70,
+            "wheat": 20,
+            "oats": 10
+        },
+        "predators": {
+            "name": "coyote",
+            "name": "cougar",
+            "name": "bobcat",
+            "name": "lynx",
+            "name": "dog",
+            "name": "wolve",
+            "name": "vulture",
+            "name": "bear",
+            "name": "human"
+        },
+        "isYummy": 5
+    },
+    {
+        "name": "elephant",
+        "weight-kg": 2700,
+        "weight-tons": 3,
+        "habitat": [
+            "africa",
+            "asia"
+        ],
+        "endangered": true,
+        "food": {
+            "grass": 10,
+            "roots": 20,
+            "bark": 10,
+            "fruit": 60
+        },
+        "predators": {
+            "name": "lion",
+            "name": "tiger",
+            "name": "hyena",
+            "name": "human",
+        },
+        "isYummy": 1
+    }
+]
